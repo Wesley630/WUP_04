@@ -46,8 +46,20 @@ The boxplot displays that both the lt high school and high school participants w
 
 
 ### Numerical Descriptive Results
-
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
+
+
+
+
+```{r}
+favstats(WORDSUM~DEGREE,data=mydata)
+```
+
+
+The Q1 of graduate school is 10 while the Q3 of LT high school are both lower than the Q1 of graduate.
+
+
+
 
 ## Inferential Results
 
